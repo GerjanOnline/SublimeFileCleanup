@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "Preferences: File Cleanup Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/FileCleanup/Default.sublime-keymap"
+        }
+    },
+    {
+        "caption": "Preferences: File Cleanup Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: File Cleanup Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: File Cleanup Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "File Cleanup: Clean This File",
+        "command": "file_cleanup"
+    }
+]
